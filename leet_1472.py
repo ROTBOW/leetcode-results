@@ -1,3 +1,4 @@
+TITLE = 'design browser history'
 '''
 leet_1472 is asking to create a small browser history.
 Instead of stacks, I used a list and a pointer. The list housing
