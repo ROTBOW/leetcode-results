@@ -15,7 +15,7 @@ def grab_title(filename):
 def replace_zeros_with_spaces(string):
     result = ''
     while string.startswith('0'):
-        result += '&nbsp;'
+        result += ' '
         string = string[1:]
     return result + string
 
