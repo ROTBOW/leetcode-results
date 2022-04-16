@@ -28,7 +28,7 @@ if __name__ == '__main__':
     leet_files.sort()
 
     with open(readme, 'w') as file:
-        file.write('# leet-results\n\n\n')
+        file.write(f'# leet-results  -  ({len(leet_files)}) solutions\n\n\n')
         for leet in leet_files:
             title = grab_title(leet)
             file.write(f'* [{replace_zeros_with_spaces(leet[5:-3])} - {title.title()}](https://github.com/ROTBOW/leetcode-results/blob/main/{leet})\n')
