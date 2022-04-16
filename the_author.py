@@ -28,8 +28,8 @@ if __name__ == '__main__':
     leet_files.sort()
 
     with open(readme, 'w') as file:
-        file.write(f'# leet-results  -  ({len(leet_files)}) solutions\n\n\n')
-        for leet in leet_files:
+        file.write(f'# Leet-Results  -  ({len(leet_files)}) solutions\n\n\n')
+        for idx, leet in enumerate(leet_files):
             title = grab_title(leet)
-            file.write(f'* [{replace_zeros_with_spaces(leet[5:-3])} - {title.title()}](https://github.com/ROTBOW/leetcode-results/blob/main/{leet})\n')
+            file.write(f'{idx+1}. [{replace_zeros_with_spaces(leet[5:-3])} - {title.title()}](https://github.com/ROTBOW/leetcode-results/blob/main/{leet})\n')
     print(f'Author: done. You\'ve completed {len(leet_files)} problems')
