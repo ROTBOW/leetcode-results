@@ -56,3 +56,4 @@ if __name__ == '__main__':
         update_readme()
     elif 'newfile' in sys.argv:
         create_new_leet()
+        update_readme()
