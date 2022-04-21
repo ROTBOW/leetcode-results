@@ -1,4 +1,4 @@
-# Leet-Results  -  (15) solutions
+# Leet-Results  -  (16) solutions
 
 
 1. [___2 - Add Two Numbers](https://github.com/ROTBOW/leetcode-results/blob/main/leet_0002.py)
@@ -10,9 +10,10 @@
 7. [__49 - Group Anagrams](https://github.com/ROTBOW/leetcode-results/blob/main/leet_0049.py)
 8. [_146 - Lru Cache](https://github.com/ROTBOW/leetcode-results/blob/main/leet_0146.py)
 9. [_289 - Game Of Life](https://github.com/ROTBOW/leetcode-results/blob/main/leet_0289.py)
-10. [_841 - Keys And Rooms](https://github.com/ROTBOW/leetcode-results/blob/main/leet_0841.py)
-11. [_922 - Sort Array By Parity Ii](https://github.com/ROTBOW/leetcode-results/blob/main/leet_0922.py)
-12. [1190 - Reverse Substrings Between Each Pair Of Parentheses](https://github.com/ROTBOW/leetcode-results/blob/main/leet_1190.py)
-13. [1472 - Design Browser History](https://github.com/ROTBOW/leetcode-results/blob/main/leet_1472.py)
-14. [1716 - Calculate Money In Leetcode Bank](https://github.com/ROTBOW/leetcode-results/blob/main/leet_1716.py)
-15. [2130 - Maximum Twin Sum Of A Linked List](https://github.com/ROTBOW/leetcode-results/blob/main/leet_2130.py)
+10. [_290 - Word Pattern](https://github.com/ROTBOW/leetcode-results/blob/main/leet_0290.py)
+11. [_841 - Keys And Rooms](https://github.com/ROTBOW/leetcode-results/blob/main/leet_0841.py)
+12. [_922 - Sort Array By Parity Ii](https://github.com/ROTBOW/leetcode-results/blob/main/leet_0922.py)
+13. [1190 - Reverse Substrings Between Each Pair Of Parentheses](https://github.com/ROTBOW/leetcode-results/blob/main/leet_1190.py)
+14. [1472 - Design Browser History](https://github.com/ROTBOW/leetcode-results/blob/main/leet_1472.py)
+15. [1716 - Calculate Money In Leetcode Bank](https://github.com/ROTBOW/leetcode-results/blob/main/leet_1716.py)
+16. [2130 - Maximum Twin Sum Of A Linked List](https://github.com/ROTBOW/leetcode-results/blob/main/leet_2130.py)
