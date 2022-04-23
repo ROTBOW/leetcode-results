@@ -47,7 +47,8 @@ def create_new_leet() -> None:
     data = data.split(',')
     with open(folder_loca+'\\'+f'leet_{add_zeros(data[1])}.py', 'w') as file:
         file.write(f"TITLE = '{data[0]}'\n")
-        file.write('\'\'\'\ntime: BigO()\nspace: BigO()\n\'\'\'\n')
+        file.write('\'\'\'\ntime: BigO()\nspace: BigO()\n\n')
+        file.write('Results:\n\n\n\'\'\'\n')
     print('Author: There you go boy.')
 
 
