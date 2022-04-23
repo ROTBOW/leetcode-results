@@ -2,6 +2,10 @@ TITLE = 'sort array by parity II'
 '''
 time: BigO(n)
 space: BigO(n)
+
+Results:
+    Runtime: 276 ms, faster than 28.91%
+    Memory Usage: 16.1 MB
 '''
 class Solution(object):
     def sortArrayByParityII(self, nums):

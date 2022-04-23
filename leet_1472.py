@@ -4,8 +4,12 @@ leet_1472 is asking to create a small browser history.
 Instead of stacks, I used a list and a pointer. The list housing
 all the urls and the pointer showing where we are in the history.
 
-Time: BigO(1)
-Space: BigO(n)
+time: BigO(1)
+space: BigO(n)
+
+Results:
+    Runtime: 262 ms, faster than 77.49%
+    Memory Usage: 16.7 MB, less than 32.02%
 '''
 
 class BrowserHistory:

@@ -2,6 +2,10 @@ TITLE = 'Merge k Sorted Lists'
 '''
 time: BigO(n log n)
 space: BigO(n)
+
+Results:
+    Runtime: 151 ms, faster than 51.56%
+    Memory Usage: 18.2 MB, less than 40.46%
 '''
 
 # Definition for singly-linked list.

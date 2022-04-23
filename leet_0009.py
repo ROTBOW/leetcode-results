@@ -5,6 +5,10 @@ I add the numbers to an list and check if it matches the reversed list.
 
 time: BigO(n)
 space: BigO(n)
+
+Results:
+    Runtime: 70 ms, faster than 73.58%
+    Memory Usage: 13.9 MB, less than 17.55%
 '''
 
 

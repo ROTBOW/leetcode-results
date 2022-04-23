@@ -2,6 +2,10 @@ TITLE = 'Maximum Twin Sum of a Linked List'
 '''
 time: BigO(n)
 space: BigO(1)
+
+Results:
+    Runtime: 910 ms, faster than 96.26%
+    Memory Usage: 45 MB, less than 84.71%
 '''
 
 # Definition for singly-linked list.

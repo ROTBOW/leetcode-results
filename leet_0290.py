@@ -2,6 +2,10 @@ TITLE = 'word pattern'
 '''
 time: BigO(n)
 space: BigO(n)
+
+Results:
+    Runtime: 43 ms, faster than 46.07%
+    Memory Usage: 13.8 MB, less than 76.47%
 '''
 class Solution:
     def wordPattern(self, pattern: str, s: str) -> bool:

@@ -4,6 +4,10 @@ leet_0021 asks us to merge two sorted linked-lists
 
 time: BigO(n)
 space: BigO(n)
+
+Results:
+    Runtime: 70 ms, faster than 15.40%
+    Memory Usage: 13.9 MB, less than 34.56%
 '''
 
 

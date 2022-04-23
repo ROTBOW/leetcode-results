@@ -2,6 +2,10 @@ TITLE = 'LRU Cache'
 '''
 time: BigO(n)
 space: BigO(n)
+
+Results:
+    Runtime: 2614 ms, faster than 7.86%
+    Memory Usage: 75 MB, less than 82.38%
 '''
 
 class LRUCache:

@@ -2,6 +2,10 @@ TITLE = 'keys and rooms'
 '''
 time: BigO(n)
 space: BigO(n)
+
+Results:
+    Runtime: 51 ms, faster than 99.91%
+    Memory Usage: 14.4 MB, less than 54.91%
 '''
 
 class Solution:

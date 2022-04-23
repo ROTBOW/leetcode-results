@@ -4,8 +4,8 @@ time: BigO(n)
 space: BigO(1)
 
 Results:
-    Runtime: 605 ms, faster than 91.05% of Python3 online submissions
-    Memory Usage: 28 MB, less than 54.64% of Python3 online submissions
+    Runtime: 605 ms, faster than 91.05%
+    Memory Usage: 28 MB, less than 54.64%
 '''
 class Solution:
     def maximumTop(self, nums: List[int], k: int) -> int:

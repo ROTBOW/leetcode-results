@@ -2,6 +2,10 @@ TITLE = 'Group Anagrams'
 '''
 time: BigO(n log n)
 space: BigO(n)
+
+Results:
+    Runtime: 84 ms, faster than 88.65%
+    Memory Usage: 19.2 MB, less than 27.68%
 '''
 
 class Solution(object):

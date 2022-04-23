@@ -2,6 +2,10 @@ TITLE = 'Calculate Money in Leetcode Bank'
 '''
 time: BigO(n)
 space: BigO(1)
+
+Results:
+    Runtime: 20 ms, faster than 87.23%
+    Memory Usage: 13.5 MB, less than 42.55%
 '''
 
 class Solution:

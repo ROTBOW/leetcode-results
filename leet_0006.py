@@ -2,6 +2,10 @@ TITLE = 'Zigzag conversion'
 '''
 time: BigO(n)
 space: BigO(n)
+
+Results:
+    Runtime: 60 ms, faster than 86.91%
+    Memory Usage: 14 MB, less than 77.35%
 '''
 class Solution:
     def convert(self, s: str, numRows: int) -> str:

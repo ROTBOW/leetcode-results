@@ -20,13 +20,17 @@ def replace_zeros_with_spaces(string) -> str:
         string = string[1:]
     return result + string
 
-def update_readme() -> None:
+def get_files():
     leet_files = []
     for dirName, subDir, fileList in os.walk(folder_loca):
         for fname in fileList:
             if fname.startswith('leet'):
                 leet_files.append(fname)
-    leet_files.sort()
+    return leet_files
+
+def update_readme() -> None:
+    leet_files = sorted(get_files())
+    
 
     with open(readme, 'w') as file:
         file.write(f'# Leet-Results  -  ({len(leet_files)}) solutions\n\n\n')
@@ -34,6 +38,28 @@ def update_readme() -> None:
             title = grab_title(leet)
             file.write(f'{idx+1}. [{replace_zeros_with_spaces(leet[5:-3])} - {title.title()}](https://github.com/ROTBOW/leetcode-results/blob/main/{leet})\n')
     print(f'Author: done. You\'ve completed {len(leet_files)} problems')
+
+def check_files() -> None:
+    leet_files = get_files()
+    invalid_files = dict()
+    for fname in leet_files:
+        with open(folder_loca+'\\'+fname, 'r') as file:
+            file_content = file.read().lower()
+            issues = []
+            if 'title = ' not in file_content:
+                issues.append('Is missing a TITLE!')
+            if 'time:' not in file_content:
+                issues.append('Is missing TIME!')
+            if 'space:' not in file_content:
+                issues.append('Is missing SPACE!')
+            if 'results:' not in file_content:
+                issues.append('Is missing RESULTS!')
+            if len(issues) > 0:
+                invalid_files[fname] = issues
+    for v, k in invalid_files.items():
+        print('Author:', v, k)
+    print(f'Author: Total ({len(invalid_files)}) files are missing stuff')
+                
 
 
 def add_zeros(num) -> str:
@@ -58,3 +84,5 @@ if __name__ == '__main__':
     elif 'newfile' in sys.argv:
         create_new_leet()
         update_readme()
+    elif 'check' in sys.argv:
+        check_files()

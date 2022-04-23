@@ -2,6 +2,10 @@ TITLE = 'Game of Life'
 '''
 time: BigO(n)
 space: BigO(n)
+
+Results:
+    Runtime: 37 ms, faster than 71.88%
+    Memory Usage: 14 MB, less than 47.75%
 '''
 
 class Solution:

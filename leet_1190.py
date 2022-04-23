@@ -2,6 +2,10 @@ TITLE = 'Reverse Substrings Between Each Pair of Parentheses'
 '''
 time: BigO(n)
 space: Big0(n)
+
+Results:
+    Runtime: 36 ms, faster than 75.00%
+    Memory Usage: 14.3 MB
 '''
 
 class Solution:

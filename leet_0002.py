@@ -3,8 +3,12 @@ TITLE = 'add two numbers'
 leet_0002 is asking to add numbers in reverse, they are also stored in a linked-list.
 I wanted to keep the data structure so I went with doing the math backwards.
 
-Time: BigO(n) #where n is the lenght of the longest linked-list
-Space: BigO(n)
+time: BigO(n) #where n is the lenght of the longest linked-list
+space: BigO(n)
+
+Results:
+    Runtime: 64 ms, faster than 96.95%
+    Memory Usage: 13.8 MB, less than 88.37%
 '''
 
 # Definition for singly-linked list.
