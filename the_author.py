@@ -28,7 +28,6 @@ def get_files():
 
 def update_readme() -> None:
     leet_files = sorted(get_files())
-    
 
     with open(readme, 'w') as file:
         file.write(f'# Leet-Results  -  ({len(leet_files)}) solutions\n\n\n')
