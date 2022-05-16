@@ -1,5 +1,8 @@
 '''
 The Author is a program that auto-fills the readme with links to all the files in this repo.
+It uses the file_locas.py file (which isn't in this repo) to find the solutions and the readme.
+the file only contains the two varibles, folder_loca and readme, which are both strings of the paths
+to the solutions and readme respectively.
 '''
 from file_locas import folder_loca, readme
 import sys
