@@ -7,8 +7,6 @@ import re
 import os
 
 
-
-
 def grab_title(filename) -> str:
     with open(folder_loca+'\\'+filename, 'r') as file:
         return re.match(r"TITLE = '(?P<title>.+)'", file.readline()).group('title')
