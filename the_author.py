@@ -36,7 +36,7 @@ def update_readme() -> None:
         file.write(f'# Leet-Results  -  ({len(leet_files)}) solutions\n\n\n')
         for idx, leet in enumerate(leet_files):
             title = grab_title(leet)
-            file.write(f'{idx+1}. [{replace_zeros_with_spaces(leet[5:-3])} - {title.title()}](https://github.com/ROTBOW/leetcode-results/blob/main/{leet})\n')
+            file.write(f'{idx+1}. [{replace_zeros_with_spaces(leet[5:-3])} - {title.title()}](https://github.com/ROTBOW/leetcode-results/blob/main/solutions/{leet})\n')
     print(f'Author: done. You\'ve completed {len(leet_files)} problems')
 
 def check_files() -> None:
