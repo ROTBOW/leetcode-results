@@ -1,4 +1,4 @@
-# Leet-Results  -  (24) solutions
+# Leet-Results  -  (25) solutions
 
 
 1. [___1 - Two Sum](https://github.com/ROTBOW/leetcode-results/blob/main/solutions/leet_0001.py)
@@ -21,7 +21,8 @@
 18. [_841 - Keys And Rooms](https://github.com/ROTBOW/leetcode-results/blob/main/solutions/leet_0841.py)
 19. [_922 - Sort Array By Parity Ii](https://github.com/ROTBOW/leetcode-results/blob/main/solutions/leet_0922.py)
 20. [1190 - Reverse Substrings Between Each Pair Of Parentheses](https://github.com/ROTBOW/leetcode-results/blob/main/solutions/leet_1190.py)
-21. [1472 - Design Browser History](https://github.com/ROTBOW/leetcode-results/blob/main/solutions/leet_1472.py)
-22. [1716 - Calculate Money In Leetcode Bank](https://github.com/ROTBOW/leetcode-results/blob/main/solutions/leet_1716.py)
-23. [2130 - Maximum Twin Sum Of A Linked List](https://github.com/ROTBOW/leetcode-results/blob/main/solutions/leet_2130.py)
-24. [2202 - Maximize The Topmost Element After K Moves](https://github.com/ROTBOW/leetcode-results/blob/main/solutions/leet_2202.py)
+21. [1342 - Number Of Steps To Reduce Number To Zero](https://github.com/ROTBOW/leetcode-results/blob/main/solutions/leet_1342.py)
+22. [1472 - Design Browser History](https://github.com/ROTBOW/leetcode-results/blob/main/solutions/leet_1472.py)
+23. [1716 - Calculate Money In Leetcode Bank](https://github.com/ROTBOW/leetcode-results/blob/main/solutions/leet_1716.py)
+24. [2130 - Maximum Twin Sum Of A Linked List](https://github.com/ROTBOW/leetcode-results/blob/main/solutions/leet_2130.py)
+25. [2202 - Maximize The Topmost Element After K Moves](https://github.com/ROTBOW/leetcode-results/blob/main/solutions/leet_2202.py)
