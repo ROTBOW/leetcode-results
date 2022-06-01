@@ -5,6 +5,9 @@ the file only contains the two varibles, folder_loca and readme, which are both 
 to the solutions and readme respectively.
 '''
 from file_locas import folder_loca, readme
+from alive_progress import alive_bar
+from collections import namedtuple
+import timeit
 import sys
 import re
 import os
@@ -77,6 +80,36 @@ def create_new_leet() -> None:
         file.write('Results:\n\n\n\'\'\'\n')
     print('Author: There you go boy.')
 
+# the commented out code is for the self timing feature that I don't think would work.
+
+# def get_soluion_for_time():
+#     files = get_files()
+#     answer = ''
+#     while True:
+#         answer = input('Enter Problem number: ')
+#         if answer.isdigit() and 0 <= int(answer) <= 9999:
+#             break
+
+#     for file in files:
+#         num = file[5:-3]
+#         if num == answer:
+#             answer = file
+
+#     file_context = ''
+#     with open(folder_loca+'\\'+answer) as file:
+#         file_context = file.read()
+
+#     timer(file_context, grab_title(answer))
+
+# def timer(funcStr, funcName):
+#     count = 1000
+#     total_time = 0.0
+#     with alive_bar(count) as bar:
+#         for _ in range(count):
+#             total_time += timeit.timeit(stmt=funcStr)
+#             # print(timeit.timeit(stmt=funcStr))
+#             bar()
+#     print(f'{funcName} - {count} runs has an average time of {round(total_time / count, 2)}')
 
 if __name__ == '__main__':
     if sys.argv == ['the_author.py']:
@@ -86,3 +119,5 @@ if __name__ == '__main__':
         update_readme()
     elif 'check' in sys.argv:
         check_files()
+    # elif 'timeit' in sys.argv:
+    #     get_soluion_for_time()

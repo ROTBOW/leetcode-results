@@ -23,3 +23,13 @@ class Solution:
             pointer += step
         
         return ''.join(rows)
+
+
+# Below is the code for self timing.
+
+# sol = Solution()
+# import random
+# import string
+# num = int(random.random() * 30)
+# word = ''.join(random.choice(string.ascii_lowercase) for i in range(int(random.random() * num)))
+# sol.convert(word, num)
