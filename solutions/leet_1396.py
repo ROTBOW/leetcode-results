@@ -4,8 +4,8 @@ time: BigO(n)
 space: BigO(n)
 
 Results:
-    Runtime: 261 ms, faster than 80.44%
-    Memory Usage: 23.4 MB, less than 99.59%
+    Runtime: 252 ms, faster than 88.77%
+    Memory Usage: 23.6 MB, less than 95.21%
 '''
 from collections import defaultdict
 class UndergroundSystem:
@@ -20,12 +20,17 @@ class UndergroundSystem:
 
     def checkOut(self, id: int, stationName: str, t: int) -> None:
         start = self.starts[id]
-        self.times[f'{start[0]}_{stationName}'].append(t - start[1])
+        if f'{start[0]}_{stationName}' not in self.times:
+            self.times[f'{start[0]}_{stationName}'].append(t - start[1])
+            self.times[f'{start[0]}_{stationName}'].append(1)
+        else:
+            self.times[f'{start[0]}_{stationName}'][0] += t - start[1]
+            self.times[f'{start[0]}_{stationName}'][1] += 1
         del self.starts[id]
 
     def getAverageTime(self, startStation: str, endStation: str) -> float:
         time = self.times[f'{startStation}_{endStation}']
-        return sum(time) / len(time)
+        return time[0] / time[1]
 
 # Your UndergroundSystem object will be instantiated and called as such:
 # obj = UndergroundSystem()
