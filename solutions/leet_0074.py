@@ -1,4 +1,4 @@
-TITLE = 'seatch a 2D matrix'
+TITLE = 'search a 2D matrix'
 '''
 time: BigO(n)
 space: BigO(1)
@@ -19,5 +19,5 @@ class Solution:
         for i in range(1, len(matrix)):
             if target >= matrix[i-1][0] and target < matrix[i][0]:
                 return target in matrix[i-1]
-                
+
         return target in matrix[-1]

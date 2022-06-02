@@ -13,7 +13,7 @@
 10. [__27 - Remove Element](https://github.com/ROTBOW/leetcode-results/blob/main/solutions/leet_0027.py)
 11. [__49 - Group Anagrams](https://github.com/ROTBOW/leetcode-results/blob/main/solutions/leet_0049.py)
 12. [__56 - Merge Intervals](https://github.com/ROTBOW/leetcode-results/blob/main/solutions/leet_0056.py)
-13. [__74 - Seatch A 2D Matrix](https://github.com/ROTBOW/leetcode-results/blob/main/solutions/leet_0074.py)
+13. [__74 - Search A 2D Matrix](https://github.com/ROTBOW/leetcode-results/blob/main/solutions/leet_0074.py)
 14. [_146 - Lru Cache](https://github.com/ROTBOW/leetcode-results/blob/main/solutions/leet_0146.py)
 15. [_189 - Rotate Array](https://github.com/ROTBOW/leetcode-results/blob/main/solutions/leet_0189.py)
 16. [_242 - Vaild Anagram](https://github.com/ROTBOW/leetcode-results/blob/main/solutions/leet_0242.py)
