@@ -11,15 +11,13 @@ class Solution:
     def wordPattern(self, pattern: str, s: str) -> bool:
         words = s.split(' ')
         if len(pattern) != len(words): return False
-        coral = dict()
-        for pat, word in zip(pattern, words):
-            if pat not in coral and word not in coral.values():
-                coral[pat] = word
-            else:
-                try:
-                    if coral[pat] != word:
-                        return False
-                except:
-                    return False
+        coral, paired_words = dict(), set()
+        for i in range(len(pattern)):
+            if pattern[i] not in coral and words[i] not in paired_words:
+                coral[pattern[i]] = words[i]
+                paired_words.add(words[i])
+            elif coral.get(pattern[i]) != words[i]:
+                return False
+
         return True
                 
