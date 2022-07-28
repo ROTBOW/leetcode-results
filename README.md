@@ -1,4 +1,4 @@
-# Leet-Results  -  (39) solutions
+# Leet-Results  -  (40) solutions
 
 
 1. [___1 - Two Sum](https://github.com/ROTBOW/leetcode-results/blob/main/solutions/leet_0001.py)
@@ -31,12 +31,13 @@
 28. [_841 - Keys And Rooms](https://github.com/ROTBOW/leetcode-results/blob/main/solutions/leet_0841.py)
 29. [_844 - Backspace String Compare](https://github.com/ROTBOW/leetcode-results/blob/main/solutions/leet_0844.py)
 30. [_922 - Sort Array By Parity Ii](https://github.com/ROTBOW/leetcode-results/blob/main/solutions/leet_0922.py)
-31. [1190 - Reverse Substrings Between Each Pair Of Parentheses](https://github.com/ROTBOW/leetcode-results/blob/main/solutions/leet_1190.py)
-32. [1342 - Number Of Steps To Reduce Number To Zero](https://github.com/ROTBOW/leetcode-results/blob/main/solutions/leet_1342.py)
-33. [1396 - Design Underground System](https://github.com/ROTBOW/leetcode-results/blob/main/solutions/leet_1396.py)
-34. [1472 - Design Browser History](https://github.com/ROTBOW/leetcode-results/blob/main/solutions/leet_1472.py)
-35. [1656 - Design An Ordered Stream](https://github.com/ROTBOW/leetcode-results/blob/main/solutions/leet_1656.py)
-36. [1716 - Calculate Money In Leetcode Bank](https://github.com/ROTBOW/leetcode-results/blob/main/solutions/leet_1716.py)
-37. [2096 - Step-By-Step Directions From A Binary Tree Node To Another](https://github.com/ROTBOW/leetcode-results/blob/main/solutions/leet_2096.py)
-38. [2130 - Maximum Twin Sum Of A Linked List](https://github.com/ROTBOW/leetcode-results/blob/main/solutions/leet_2130.py)
-39. [2202 - Maximize The Topmost Element After K Moves](https://github.com/ROTBOW/leetcode-results/blob/main/solutions/leet_2202.py)
+31. [_938 - Range Sum Of Bst](https://github.com/ROTBOW/leetcode-results/blob/main/solutions/leet_0938.py)
+32. [1190 - Reverse Substrings Between Each Pair Of Parentheses](https://github.com/ROTBOW/leetcode-results/blob/main/solutions/leet_1190.py)
+33. [1342 - Number Of Steps To Reduce Number To Zero](https://github.com/ROTBOW/leetcode-results/blob/main/solutions/leet_1342.py)
+34. [1396 - Design Underground System](https://github.com/ROTBOW/leetcode-results/blob/main/solutions/leet_1396.py)
+35. [1472 - Design Browser History](https://github.com/ROTBOW/leetcode-results/blob/main/solutions/leet_1472.py)
+36. [1656 - Design An Ordered Stream](https://github.com/ROTBOW/leetcode-results/blob/main/solutions/leet_1656.py)
+37. [1716 - Calculate Money In Leetcode Bank](https://github.com/ROTBOW/leetcode-results/blob/main/solutions/leet_1716.py)
+38. [2096 - Step-By-Step Directions From A Binary Tree Node To Another](https://github.com/ROTBOW/leetcode-results/blob/main/solutions/leet_2096.py)
+39. [2130 - Maximum Twin Sum Of A Linked List](https://github.com/ROTBOW/leetcode-results/blob/main/solutions/leet_2130.py)
+40. [2202 - Maximize The Topmost Element After K Moves](https://github.com/ROTBOW/leetcode-results/blob/main/solutions/leet_2202.py)
