@@ -1,8 +1,9 @@
-from collections import Counter
+from collections import defaultdict as ddict
 class Solution:
     def containsDuplicate(self, nums: List[int]) -> bool:
-        n = Counter(nums)
-        for num in n.values():
-            if num >= 2:
+        n = ddict(int)
+        for num in nums:
+            n[num] += 1
+            if n[num] >= 2:
                 return True
         return False
