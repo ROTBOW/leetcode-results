@@ -1,22 +1,8 @@
-from collections import defaultdict as ddict
 class Solution:
     def containsDuplicate(self, nums: List[int]) -> bool:
-        n = dict()
-        
+        n = set()
         for num in nums:
-            if num not in n:
-                n[num] = 1
-            else:
-                n[num] += 1
-                
-            if n[num] >= 2:
+            if num in n:
                 return True
+            n.add(num)
         return False
-        
-        
-        # n = ddict(int)
-        # for num in nums:
-        #     n[num] += 1
-        #     if n[num] >= 2:
-        #         return True
-        # return False
