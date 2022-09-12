@@ -22,4 +22,4 @@ class Solution:
         elif newInterval:
             result = [newInterval] + result
             
-        return result + intervals
+        return result# + intervals
