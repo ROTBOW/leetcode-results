@@ -2,7 +2,7 @@ from functools import lru_cache
 
 class Solution:
     
-    @lru_cache
+    # @lru_cache
     def climbStairs(self, n: int) -> int:
         if n <= 2:
             return n if n >= 0 else 0
