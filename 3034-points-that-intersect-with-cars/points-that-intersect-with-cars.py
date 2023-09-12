@@ -5,7 +5,6 @@ class Solution:
         # space: O(m) where m is the total length of unique ints in their ranges
         count = set()
         for car in nums:
-            for i in range(car[0], car[1]+1):
-                count.add(i)
+            count.update(range(car[0], car[1]+1))
 
         return len(count)
