@@ -5,17 +5,18 @@
 #         self.left = left
 #         self.right = right
 
-from collections import deque
+# from collections import deque
 class Solution:
     def largestValues(self, root: Optional[TreeNode]) -> List[int]:
         if not root:
             return []
 
-        queue = deque([[root, 0]])
+        # queue = deque([[root, 0]])
+        queue = [[root, 0]]
         res = dict()
         
-        while queue:
-            node, lvl = queue.popleft()
+        for node, lvl in queue:
+            # node, lvl = queue.popleft()
 
             if lvl not in res:
                 res[lvl] = node.val
