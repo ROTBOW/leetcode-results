@@ -8,7 +8,7 @@ class Solution:
                 min_two[0] = choco
             elif choco <= min_two[1]:
                 min_two[1] = choco
-        print(min_two)
+        
         if sum(min_two) > money:
             return money
         return abs(sum(min_two) - money)
